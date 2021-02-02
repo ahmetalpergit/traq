@@ -41,7 +41,9 @@ a:visited {
 
 /* SIDEBAR */
 .sidebar {
-  flex-basis: 50rem;
+  width: 50vw;
+  min-width: 42rem;
+  max-width: 50rem;
   background-color: var(--color-dark--1);
   padding: 3rem 0;
   display: flex;
@@ -264,6 +266,14 @@ a:visited {
 .instructions__item {
   font-size: 1.4rem;
   line-height: 2;
+}
+
+.instructions__item span {
+  margin-right: 1rem;
+}
+
+.instructions__list {
+  list-style: none;
 }
 
 .hidden {
