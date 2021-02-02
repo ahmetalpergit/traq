@@ -281,6 +281,7 @@ class App {
     }
 
     _deleteWorkout(workout) {
+        if (this._isEditing) return;
         const workoutsContainer = [...containerWorkouts.childNodes];
         const filterContainer = workoutsContainer.filter(el => {
             return el.className?.split(' ')[0] === 'workout';
