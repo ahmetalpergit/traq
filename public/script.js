@@ -107,7 +107,11 @@ class App {
         
         this._renderLocalStorage();
 
-        L.marker(coords, {icon: customIcon}).addTo(this.map).bindPopup('Current Location').openPopup();
+        L.marker(coords, {icon: customIcon}).addTo(this.map).bindPopup('Current Location', {
+            maxWidth: 250,
+            autoClose: false,
+            closeOnClick: false,
+    }).openPopup();
         this.map.panTo(coords, {animate: false}).on('click', this._showForm.bind(this))
     }
 
