@@ -29,4 +29,4 @@ The app is using the Geolocation API in order to locate the user's position.
 
 ## Thank you!
 
-Really appreciate that you've come this far checking out my project. I'd like to give special credit to Harvard CS50 course instructor David J. Malan, Angela Yu (App brewery full stack web dev bootcamp) and Jonas Schmedtmann (advanced CSS and advanced JS courses) who've all taught me things along the way that helped me build this project today. Take care and I'll see you on the next one! :)
+Thank you so much for checking out my project! If you have any notes or bugs send them my way and I'll make sure they're fixed.
