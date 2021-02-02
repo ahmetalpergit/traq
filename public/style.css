@@ -58,7 +58,7 @@ a:visited {
   list-style: none;
   height: auto;
   max-height: 77vh;
-  /* overflow-y: scroll; */
+  overflow-y: scroll;
   overflow-x: hidden;
 }
 

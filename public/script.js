@@ -21,8 +21,8 @@ const validationBox = document.querySelector('.validation');
 const instructions = document.querySelector('.instructions');
 
 const customIcon = L.icon({
-    iconUrl: 'favicon-2.png',
-    shadowUrl: 'favicon-2.png',
+    iconUrl: '/public/images/favicon-2.png',
+    shadowUrl: '/public/images/favicon-2.png',
 
     iconSize:     [43, 'auto'], // size of the icon
     shadowSize:   [0, 0], // size of the shadow
