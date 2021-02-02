@@ -249,6 +249,7 @@ a:visited {
 
 .instructions {
   font-weight: 300;
+  padding: 0 3rem;
   margin-top: 5rem;
   display: flex;
   flex-direction: column;
