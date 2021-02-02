@@ -23,9 +23,10 @@ The app is using the Geolocation API in order to locate the user's position.
 
 ### Features
 
+* Add, edit or delete your workouts with an intuitive UI.
 * Geolocation and tracking user's current position.
 * Leaflet library allows the use of maps and customised markers.
-* Add, edit or delete your workouts with an intuitive UI.
+* LocalStorage keeps the data when users exit the app.
 
 ## Thank you!
 
