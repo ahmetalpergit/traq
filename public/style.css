@@ -39,6 +39,12 @@ a:visited {
   color: var(--color-primary);
 }
 
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
 /* SIDEBAR */
 .sidebar {
   width: 50vw;
@@ -311,4 +317,48 @@ a:visited {
 }
 .cycling-popup .leaflet-popup-content-wrapper {
   border-left: 6px solid var(--color-primary);
+}
+
+@media (max-width: 780px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 1.5rem 0;
+    max-width: none;
+    min-width: auto;
+    order: 2;
+  }
+
+  .logo {
+    margin-bottom: 1.5rem;
+    height: 4rem;
+  }
+
+  .instructions {
+    margin-top: 0;
+    padding: 0 2rem;
+  }
+
+  #map {
+    min-height: 50vh;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 58%;
+  }
+
+  .form {
+    grid-template-columns: 1fr;
+    height: auto;
+    gap: 1.5rem 2.5rem;
+  }
+
+  .workout {
+    grid-template-columns: 1fr 1fr;
+  }
 }
