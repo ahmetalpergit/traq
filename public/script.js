@@ -321,25 +321,25 @@ class App {
             </div>
             <div class="form__row">
             <label class="form__label">Distance</label>
-            <input class="form__input form__edit--distance" placeholder="km" />
+            <input type="number" class="form__input form__edit--distance" placeholder="km" />
             </div>
             <div class="form__row">
             <label class="form__label">Duration</label>
-            <input
+            <input type="number"
                 class="form__input form__edit--duration"
                 placeholder="min"
             />
             </div>
             <div class="form__row${workout.type === 'running' ? '' : ' form__row--hidden'}">
             <label class="form__label">Cadence</label>
-            <input
+            <input type="number"
               class="form__input form__edit--cadence"
               placeholder="step/min"
             />
           </div>
           <div class="form__row${workout.type === 'cycling' ? '' : ' form__row--hidden'}">
             <label class="form__label">Elev Gain</label>
-            <input
+            <input type="number"
               class="form__input form__edit--elevation"
               placeholder="meters"
             />

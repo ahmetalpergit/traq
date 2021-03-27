@@ -345,6 +345,10 @@ a:visited {
   #map {
     min-height: 50vh;
   }
+
+  .workout__buttons {
+    display: block;
+  }
 }
 
 @media (max-width: 450px) {
@@ -353,6 +357,12 @@ a:visited {
   }
 
   .form {
+    grid-template-columns: 1fr;
+    height: auto;
+    gap: 1.5rem 2.5rem;
+  }
+
+  .form__edit {
     grid-template-columns: 1fr;
     height: auto;
     gap: 1.5rem 2.5rem;
